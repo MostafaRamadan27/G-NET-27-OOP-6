@@ -24,6 +24,14 @@ namespace G_NET_27_OOP_6
             // choose interface if i 1- want to define role 2- want multiaple inhertance
             // 
             #endregion
+
+            #region Q3
+            //a- cant take object from abstract class
+            //b- PowerConsumption() => abstract class =>Must be overridden in every derived class Because power consumption differs per device
+            //, Status() => virtual class => Can be overridden but not required,because some device may need special behavior
+            // and Label() => Cannot be overridden => Because label standard and identical for all devices.
+            //c- will return "Standby" , because the method is virtual and not overridden in the derived class, so it will use the implementation from the base class which returns "Standby".
+            #endregion
             #endregion
         }
     }
